@@ -1,0 +1,8 @@
+.flavorDivs{
+    display: flex;
+    flex-direction: row;
+}
+
+.AdDisplay__ad {
+    margin: 30px;
+}

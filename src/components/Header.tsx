@@ -1,10 +1,18 @@
 import React from 'react';
 import './Header.css';
 
-function Header() {
+interface Props {
+    greeting: string;
+    user: string;
+}
 
+function Header({greeting, user}: Props) {
+    
     return (
-        <header>Ice Cream Wars</header>
+        <header className="Header">
+            <h1>Ice Cream Wars</h1>
+            <p>{greeting}{user}</p>
+        </header>
     )
         
 }

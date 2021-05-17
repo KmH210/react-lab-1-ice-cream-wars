@@ -1,0 +1,22 @@
+.ChocolateDiv {
+    background-color: #4f2c2c;
+}
+.StrawberryDiv {
+    background-color: #de8c91;
+}
+.CookieDiv {
+    background-color: beige;
+}
+.VoteButtonSec button{
+    background-color: #0e3c7e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.VoteContainer {
+    margin: 10px;
+}
+

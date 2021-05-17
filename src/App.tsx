@@ -1,15 +1,25 @@
 import React from 'react';
-import './App.css';
-import Header from "./components/Header";
-import AdDesigner from "./components/AdDesigner";
-// import Votes from "./components/Votes";
+import AdDisplay from './components/Ad';
+import AdDesigner from './components/AdDesigner';
+import Header from './components/Header';
+import Vote from './components/Vote';
+import Ad from './models/Ad';
+import './App.css'
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header greeting = "Welcome, " user="Katie" />
+      <div className="flavorDivs">
+      <AdDisplay ad={{flavor:"Vanilla", fontSize:15, darkTheme: true}}/> 
+      <AdDisplay ad={{flavor:"Chocolate", fontSize:15, darkTheme: false}}/> 
+      <AdDisplay ad={{flavor:"Strawberry", fontSize:15, darkTheme: true}}/> 
+      </div>
       <AdDesigner/>
-      {/* <Votes/> */}
+      <Vote />
+
     </div>
   );
 }

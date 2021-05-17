@@ -1,14 +1,14 @@
-.AdDesigner body{
+.AdDesigner{
     font-family: sans-serif;
-    margin-left: 50px;
+    margin-left: 10px;
 }
-.AdDesigner h1{
+.AdDesigner h2{
     font-family: 'Caveat', cursive;
     font-size: 50px;
-    margin-bottom: 10;
+    margin: 10px;
+  
 }
 .AdDesigner h3{
-    font-family: 'Caveat', cursive;
     font-size: 25px;
 }
 
@@ -28,11 +28,20 @@
     border-radius: 5px;
     padding: 10px;
     margin: 8px;
-    font-size: 25px;
+    font-size: 16px;
+}
+.AdDesigner button:disabled {
+    background-color: gray;
 }
 
-
+.dark{
+    background-color: #222;
+    color: #fff;
+}
 
 .AdDesigner__box p{
     font-weight: bold;
 }
+.Flavor{
+        font-family: 'Caveat', cursive;
+    }

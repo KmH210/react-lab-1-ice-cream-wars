@@ -1,7 +1,26 @@
-header {
+.Header {
     font-family: 'Caveat', cursive;
     color: #0e3c7e;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 30px;
     box-shadow: 0 6px 3px #d3d0d0;
+
 }
+
+.Header p{
+    font-weight: lighter;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 246px;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 600px;
+    margin-top: 0px;
+}
+
+.Header h1{
+   text-align: center;
+}
+
+

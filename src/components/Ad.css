@@ -1,0 +1,12 @@
+.AdDisplay__ad {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    border: 2px solid grey;
+}
+
+.VoteFor{
+    font-family: 'Caveat', cursive;
+}
